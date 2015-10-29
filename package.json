@@ -1,0 +1,36 @@
+{
+  "name": "localswarm",
+  "version": "0.0.1",
+  "description": "Like airswarm, but using tcp ports",
+  "main": "localswarm.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "precommit": "test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/localswarm.git"
+  },
+  "keywords": [
+    "airswarm",
+    "p2p"
+  ],
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/localswarm/issues"
+  },
+  "homepage": "https://github.com/mcollina/localswarm#readme",
+  "devDependencies": {
+    "pre-commit": "^1.1.1",
+    "standard": "^5.3.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "end-of-stream": "^1.1.0",
+    "fully-connected-topology": "^1.1.0",
+    "net-object-stream": "^1.1.0",
+    "unix-socket-leader": "^0.1.0"
+  }
+}
