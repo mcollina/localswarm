@@ -1,6 +1,6 @@
 {
   "name": "localswarm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Like airswarm, but using tcp ports",
   "main": "localswarm.js",
   "scripts": {
