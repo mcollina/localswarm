@@ -3,7 +3,7 @@
 [![build status](http://img.shields.io/travis/mcollina/localswarm.svg?style=flat)](http://travis-ci.org/mcollina/localswarm)
 
 
-Network swarm that automagically discovers other peers on the same host using a unix socket and tcp ports. It offers the same API of [localswarm](http://npm.im/localswarm).
+Network swarm that automagically discovers other peers on the same host using a unix socket and tcp ports. It offers the same API of [airswarm](http://npm.im/airswarm).
 
 ```
 npm install localswarm --save
